@@ -117,7 +117,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	
-	ofs.write((char*)&data[0], sizeof(unsigned char)*num);
+	ofs.write((char*)&data[0], sizeof(unsigned char)*num/8);
 	ofs.close();
 
 	
